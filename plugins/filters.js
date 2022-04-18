@@ -114,17 +114,17 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '919645628728@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '917025994178@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./sourav/music.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == Config.AFNN) {
 await message.client.sendMessage(message.jid, fs.readFileSync('./sourav/music.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Ayin','Ayinu','Bgm','Bot','Bye','Da','Good night','Hello','Hi','Neymar','Pm','Sed','alive','assist','ban','bgm','bot','converting','fake','fork','fuck','music','myre','njan','number','oombi','para','poda','raganork','remove','reply','sed','subscribe','umma','xxxtentation']
+const array = ['Ajayan','aj cutzz','aj fx','Kbfc','blasters','mention','nanban','mute','Ajfx','insta','Friends','ajayan','alive','kaztro','Aloo','yt','grouplink','link','ambada','update','Lo','Remove','messi','removebg','avastha','Guys','Srg','img','bad boy','bgm','Hey','Kooi','bot noobe','bot','breakup','bro','business','chat','com','cristiano','gm','gn','ʙᴏʏ ғʀɪᴇɴᴅ','ɢɪʀʟ ғʀɪᴇɴᴅ','good','group','hacker','hello','help','hi','home','indo','kollam','kollamo','kooi','lalettan','line','love me','love','mm','modesh','muthe','myr','nanban','nanbans','neymer','njr','noorin','noorin shereef','of','off','owner','photo','pm','potte','remove','report','ronaldo','school','Hy','bey','Kaztroser','Kunne','Single','seen','sex','singel','spam','sticker','umma','welcome','wine','you','neymar','Adi','Aliya','Aliyo','Alone','Ano','Araa','Area','Arulle','Ayin','Baa','Bad','Bey','Bgmi','Bhasi','Black','Blaze boss','Blind','Block','Bomb','Bot sed','Bot','Breakup','By','Call','Chunks uyir','Chunk','Chunks','Cr7 back','Cr7','Cristiano','Da','Daa','Darshana','Dj','Do','E bull jet','Eda','Editing','Ee','Eee','Ellam poyi','Exam','fans','From','Full','Girl','Good morning','Good night','Ha','Hacker','Hai','Help','Hi','Hii','Hum','Humm','I love you','I','Idd','Indo','Kaliyannam','Kanjavu','Kannan','Kaztro','Kgf','Kill','Kiss','Kozhi','Kundan','Kutta','Kuttu','Line undo','Loo','Love vendada','Love you bot','Love you molu','Love','Mamma','Mine','Mm','Mood of','Mood','Myr','Myre','Nadakko','Nanban uyir','Nanban','Nanbans','Nb','Nee','Neymar','Njan ano','Njan eilla','Njan ind','Njan killadi alle','Njan nannayi','Njan poyi','Njan seen ane','Njan verum','Njr','No g','list','myre','uyire','menu','No','Noorin shereef','Noorin','Of','Name','Ohh','Oii','Ok','On','Onam','Onn','Oo','Op','Ozhivaki','Paavam','Pavam','Pinne','Poda','Podimon','Polayat','Poli','Pova','Power','Powli','Pro','Pubg','Remix','Romantic','Ronaldo','Sara','Sed life','Set','Sex','Singel','Sir','Smile','Sorry','Supper','Thayoli','Theap','Theri','Tq','Umb','Umbi','Uyir','Va','Vaa','Vadaa','Vid','Welcome','Xxx','Free fire','free fire','call','6','Sed','Pm','Messi','Bgm','Aysheri','Hlo','darshana','git','Sad','Christmas','christmas','ban','bye','Aa','Hello']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./sourav/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./bgms/uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
 }
 });
     }
@@ -148,11 +148,11 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if(Config.AUTOSTICKER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-const array = ['Akshan','Anthass','Ayin','Aysheri','Ayye','Ayyo','Bgm','Bye','Da','Ded','Ee','Eee','Enth','Entha','Enthada','Girls','Good morning','Good night','Hello','Hi','Hy','Kurippe','Kurumb','Line','Logan','Love','Mm','Monu','Msd','Nope','Ok','Pattumo','Pm','Poda','Poli','Pova','Raganork','Save','Sed','Shoo','Smile','Sourav','Sunny','Udayipp','Vaa','Vannu','Vijay','Wait','ban','bot','broken','bye','chattho','cheyyatte','cute','edit','engane und','etha','fear','filter','gn','help','ithokke enth','ivan','left','mention','myre','naanam','nadakkatte','number','paavam','padikk','para','photo','please','poda','power','poyi','remove','sed','seth','setth','sho','sticker','support','tag','tagall','umma','update','vibe','work','yo','ys']
+const array = ['Hi','ayyo','bad','bgm','Bomb','bey','Christmas','come','Cr7','dj','dq','Eee','eilla','exam','gm','gn','help','Hii','Hlo','Kaztro','kick','kille','menu','morning','mute','no','nokk','Noorin','oh','Ok','oo','pm','poda','podi','powli','poyi','Pro','sad','Sed','Share','unmute']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-   await message.client.sendMessage(message.jid, fs.readFileSync('./souravkl11/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
+   await message.client.sendMessage(message.jid, fs.readFileSync('./bgms/Kaztroser/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
 }
 });
 }
