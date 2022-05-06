@@ -1,15 +1,15 @@
 {
-    "name": "Raganork",
-    "description": "Raganork bot - Extra featured, fully customisable WhatsApp Public/User bot.",
-    "logo": "https://i.imgur.com/SSn0JaM.jpg",
-    "keywords": ["WhatsApp", "Userbot", "Raganork", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/Afx-Abu/Raganork",
-    "website":   "https://github.com/Afx-Abu/Raganork",
-    "success_url": "https://github.com/Afx-Abu/Raganork",
+    "name": "Abuser",
+    "description": "Abuser - Extra featured, fully customisable WhatsApp Public/User bot.",
+    "logo": "https://i.imgur.com/ZcnqY4l.jpg",
+    "keywords": ["WhatsApp", "Userbot", "Abu", "WhatsAsena", "bot", "api", "ai"],
+    "repository": "https://github.com/Afx-Abu/Abuser",
+    "website":   "https://github.com/Afx-Abu/Abuser",
+    "success_url": "https://github.com/Afx-Abu/Abuser",
     "stack": "container",
     "env": {
-        "RAGANORK_CODE": {
-            "description": "Your QR session. Paste here yours Raganork code.",
+        "ABU_CODE": {
+            "description": "Your QR session. Paste here yours Abu code.",
             "required": true
         },
        "C_CODE": {
@@ -35,17 +35,17 @@
          "ALL_IMG": {
             "description": "Give an image link for your bot!",
             "required": true,
-            "value": "https://i.imgur.com/LRZ0yTD.jpg"
+            "value": "https://i.imgur.com/ZcnqY4l.jpg"
         },
         "DIALOGUE": {
             "description": "Type anything here",
             "required": true,
-            "value": "ᴋɪʟʟᴀᴅɪ ɴᴇᴠᴇʀ ᴇɴᴅs"
+            "value": "Killadism never end"
         },
         "ALL_CAPTION": {
-            "description": "Give your caption here. Example: Made by Raganork.",
+            "description": "Give your caption here. Example: Made by Abuser.",
             "required": true,
-            "value": "ᴍᴀᴅᴇ ʙʏ "
+            "value": "Caption message"
         },
         "VERIFIED": {
             "description": "Jid given above the verified tick. Use 0 for official WhatsApp",
@@ -87,7 +87,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": true,
-            "value": "ɪᴀᴍ ᴀʟɪᴠᴇ "
+            "value": "I'm alive"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
@@ -132,7 +132,7 @@
         "OWNER_NAME": {
             "description": "Owner name used in many commands! Type your name here.",
             "required": true,
-            "value": "Aʙᴜ sᴇʀ"
+            "value": "Owner name"
         },
         "TAG_HEADER": {
             "description": "Default header for tagall message.",
@@ -152,7 +152,7 @@
         "STICKER_DATA": {
             "description": "Sticker packname changer. Give any text here",
             "required": false,    
-            "value": "Raganork|Abu_ser"
+            "value": "Abuser|Jsl"
         },
         "REMOVE_FILTER": {
             "description": "By using these words on .antiword enabled groups, user will be kicked!",
@@ -162,17 +162,17 @@
         "AUDIO_DATA": {
             "description": "Name and image for audio name changing feature. Give Title;artist;thumbnailurl format",
             "required": false,    
-            "value": "Generated using ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ī.ᴀᴍ/ᴀʙᴜ sᴇʀ⁴⁰⁴;https://i.imgur.com/wQGckMK.jpg"
+            "value": "Generated using ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝✰ͣᴀͫʙᴜ✰;ᴊsʟ¹¹;https://i.imgur.com/ZcnqY4l.jpg"
         },
         "GROUP_LINK": {
             "description": "Official group link of your bot.",
             "required": true,    
-            "value": "https://chat.whatsapp.com/DNP9Fd1eWrjKz2DalRI2CX"
+            "value": "https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb"
         },
         "BOT_NAME": {
             "description": "Your bot's name. This is very important!",
             "required": true,
-            "value": "𝚁𝙰𝙶𝙰𝙽𝙾𝚁𝙲𝙺 𝙱𝚈 𝙰𝙱𝚄 𝚂𝙴𝚁"
+            "value": "ʏᴏᴜʀ ʙᴏᴛ ɴᴀᴍᴇ"
              
         }
     },
